@@ -95,7 +95,7 @@ function newgame() {
     randomnumber = parseInt(Math.random()*100+1);
     prevguess = [];
     numguess = 1;
-    count.innerHTML = '';
+    count.innerHTML = 'Previous Guesses :';
     remain.innerHTML = `Guesses Remaining : ${11-numguess}`;
     userinput.removeAttribute('disabled');
     startover.removeChild(p);
