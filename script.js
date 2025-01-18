@@ -49,7 +49,7 @@ function validateguess(guess){
 
 function checkguess(guess){
     if(guess === randomnumber){
-        displaymessage(`You guessed is right`);
+        displaymessage(`You guessed it right`);
         endgame();
     } else if (guess < randomnumber){
         displaymessage(`Number is Tooo low `);
