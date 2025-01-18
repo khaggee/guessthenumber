@@ -97,6 +97,7 @@ function newgame() {
     numguess = 1;
     count.innerHTML = 'Previous Guesses :';
     remain.innerHTML = `Guesses Remaining : ${11-numguess}`;
+    loworhigh.innerHTML = ``;
     userinput.removeAttribute('disabled');
     startover.removeChild(p);
 
